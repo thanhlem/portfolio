@@ -75,22 +75,32 @@ p {
     text-align: center;
   }
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
   text-align: center;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font);
 }
-.about-section p {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font);
+}
+.content p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font);
 }
-.about-section-content {
+.content {
   margin: 30px;
 }

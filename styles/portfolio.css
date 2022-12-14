@@ -24,6 +24,12 @@ h2 {
   font-weight: bold;
   font-size: 64px;
 }
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 48px;
+}
 .hero h2 {
   font-size: 24px;
   line-height: 2;
@@ -65,6 +71,12 @@ p {
   h2 {
     font-size: 25px;
   }
+  h4 {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 18px;
+  }
 
   .hero {
     background: #f9f7fe;
@@ -102,7 +114,8 @@ p {
   font-family: var(--default-font);
 }
 .content {
-  margin: 30px;
+  text-align: center;
+  padding: 0;
 }
 .logo {
   max-height: 40px;
@@ -129,5 +142,36 @@ nav a:hover {
   color: var(--secondary-color);
 }
 nav li.active a {
+  color: var(--secondary-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  padding: 30px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .social-link a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-link a:hover {
+  color: white;
+  background: var(--secondary-color);
+}
+footer .email-link:hover {
   color: var(--secondary-color);
 }

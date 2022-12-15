@@ -28,6 +28,35 @@
     <title>My projects</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="/images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Shecodes logo"
+        />
+        <img
+          src="/images/logo-small.jpg"
+          class="logo d-block d-md-none"
+          alt="Shecodes logo - icon only"
+        />
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -52,7 +81,6 @@
               Built with HTML,CSS and JavaScript
             </p>
           </div>
-          <div class="row">
           <div class="col-md-6 mb-4">
             <img
               src="/images/dictionary-app.png"
@@ -60,7 +88,9 @@
               alt="dictionary-app"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS with React</p>
+            <p class="text-center text-muted">
+              Built with HTML, CSS with React
+            </p>
           </div>
           <div class="col-md-6 mb-4">
             <img
@@ -73,9 +103,46 @@
               Built with HTML, CSS with React
             </p>
           </div>
-
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:hanoian102@gmail.com"
+            class="email-link"
+            id="email-link"
+            >hanoian102@gmail.com</a
+          >
+        </div>
+        <div class="social-link d-flex justify-content-center">
+          <a href="https://www.instagram.com/thanhle.20/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/thanhlem/" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.facebook.com/thanhsap12345/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This website is created by Thanh Le, and is
+          <a href="https://github.com/thanhlem/portfolio" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

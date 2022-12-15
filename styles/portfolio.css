@@ -112,6 +112,7 @@ p {
 .content-container p {
   font-size: 18px;
   font-family: var(--default-font);
+  margin: 60px 20px;
 }
 .content {
   text-align: center;

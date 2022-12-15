@@ -62,6 +62,7 @@ p {
 }
 .project-description {
   padding: 90px 60px;
+  text-align: left;
 }
 
 .hero {
@@ -70,8 +71,7 @@ p {
   padding: 80px 20px;
 }
 .project-description {
-  padding: 0;
-  text-align: center;
+  padding: 120px 60px;
 }
 
 .content h1 {
@@ -175,5 +175,13 @@ footer .email-link:hover {
   }
   .btn {
     font-size: 18px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
   }
 }
